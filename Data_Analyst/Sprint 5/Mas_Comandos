@@ -6,3 +6,11 @@ Por ejemplo:
 Tener en cuenta que podemos dirigir el echo a un archivo con el simbolo ~> ó >>~por ejemplo:
 echo -e 'quiero ser \n el mejor en lo que hago' > Comandos.txt
 
+Comando TOUCH para crear archivos vacíos sin entrar en ellos
+por ejemplo:
+touch new_file
+
+Comando MV para mover un archivo o directorio de un lugar a otro
+ejemplo:
+mv new_file.txt Comandos
+
