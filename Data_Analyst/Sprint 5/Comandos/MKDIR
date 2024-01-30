@@ -1,2 +1,3 @@
 #!bin/bash
 mkdir
+mkdir -p -v 'crea_nuevo_directorio/creado_dentro'
