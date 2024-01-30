@@ -14,3 +14,9 @@ Comando MV para mover un archivo o directorio de un lugar a otro
 ejemplo:
 mv new_file.txt Comandos
 
+Comando CP sirve para copiar archivos. Necesitamos 2 argumentos
+por ejemplo:
+cp new_file Mas_Comandos/
+
+
+
