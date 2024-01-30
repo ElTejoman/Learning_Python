@@ -1,0 +1,5 @@
+Con ~echo~  podemos imprimir lo que nosotros deseemos.
+adicionalmente podemos agregar caracteres de escape con ~-e~
+Por ejemplo:
+~echo -e 'Quiero ser el mejor \n Big Data Developer \n el mejor!'~
+
