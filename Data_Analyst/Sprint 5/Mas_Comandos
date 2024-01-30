@@ -3,3 +3,6 @@ adicionalmente podemos agregar caracteres de escape con ~-e~
 Por ejemplo:
 ~echo -e 'Quiero ser el mejor \n Big Data Developer \n el mejor!'~
 
+Tener en cuenta que podemos dirigir el echo a un archivo con el simbolo ~> ó >>~por ejemplo:
+echo -e 'quiero ser \n el mejor en lo que hago' > Comandos.txt
+
