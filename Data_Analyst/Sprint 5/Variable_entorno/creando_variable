@@ -1,0 +1,4 @@
+Cuando creamos las variables de shell, tenemos que definirlas en la CLI. Por ejemplo, para crear una variable con el nombre MY_V y el valor my first variable ("mi primera variable") escribiríamos lo siguiente:
+
+MY_V="my first variable"
+echo $MY_V
