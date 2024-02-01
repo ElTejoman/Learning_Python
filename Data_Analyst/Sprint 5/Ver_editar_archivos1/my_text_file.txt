@@ -1,0 +1,8 @@
+ls
+.:clear
+
+
+[A[A[c[A[Csdfñkl
+
+
+git add .

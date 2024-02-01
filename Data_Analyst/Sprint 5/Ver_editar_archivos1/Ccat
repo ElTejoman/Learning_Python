@@ -1,0 +1,1 @@
+Este comando puede utilizarse para visualizar el contenido de un archivo, pero tambien para crear archivos dentro de un directorio. Pej : cat contenido a mostrat > file2display.txt
