@@ -1,0 +1,1 @@
+Un alias no es más que un string que escribimos en la interfaz de la línea de comandos. Este string es un atajo que hace referencia a un comando. Mientras que un alias suele ser corto, el comando que invocamos suele ser largo o repetitivo.
