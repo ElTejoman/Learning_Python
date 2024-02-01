@@ -1,0 +1,7 @@
+CARACTERES COMODÍN (WILDCARDS)
+
+1. Asterisco - generaliza archivos por tipo de archivo. por ejemplo ----> mv *.jpg (movera todos los archivos .JPG
+
+2. Interrogacion - mueve a todos los archivos con algun caracter estandarizado . ejemplo ----------> mv folder_1/pic?.jpg (agarrará todos los archivos que contenga la palabra pic.jpg y los movera)
+3. Corchetes
+4. Llaves
