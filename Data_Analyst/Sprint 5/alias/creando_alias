@@ -1,0 +1,3 @@
+Cuando le pongamos nombre a los alias, es importante que su significado sea claro. En cuanto al nombre de nuestro alias, podemos usar cdp. Usaremos cdp porque cd se refiere al comando que queremos invocar y p al proyecto.
+
+alias cdp="cd /home/jovyan/work/my_amazing_project"
