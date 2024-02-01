@@ -1,0 +1,7 @@
+esto es una prueba
+para probar VI
+junto con los comandos. Recordad:
+:wq para guardar y salir
+ZZ para guardar y salir, tambien
+:q para salir solo si no hiciste cambios
+:q! para forzar la salida sin haber guardado
