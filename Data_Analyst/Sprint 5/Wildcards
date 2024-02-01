@@ -5,4 +5,6 @@ CARACTERES COMODÍN (WILDCARDS)
 2. Interrogacion - mueve a todos los archivos con algun caracter estandarizado . ejemplo ----------> mv folder_1/pic?.jpg (agarrará todos los archivos que contenga la palabra pic.jpg y los movera)
 
 3. Corchetes - se usa para establecer coincidencias entre caracteres ejempo --> mv folder_1/pic_[545464].jpg (esto hará coincidir todos los archivos pic_ . jpg que tengas numeros)
-4. Llaves
+
+4. Llaves -  establece coincidencias con varios formtos de archivo Pej:. mv folder_1/{*.jpg,*.png}
+(ESTO HARÁ QUE AGRUPE TODOS LOS DISTINTOS GRUPOS DE ARCHIVOS PARA MOVERLOS A DONDE SE DESEE)
