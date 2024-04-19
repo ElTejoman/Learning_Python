@@ -20,7 +20,11 @@ La facturación, o ingreso bruto, es la cantidad de dinero que los clientes paga
 
 El costo directo es el dinero que pagó la empresa para adquirir los bienes. Los servicios también tienen un costo directo: por ejemplo, los gastos de combustible están incluidos en el costo directo de un viaje en taxi.
 
-Si conoces el costo directo y la facturación, puedes calcular la primera métrica comercial, beneficio bruto. Beneficio bruto = facturación - costo directo. La empresa compró barato, pero vendió caro, y listo, tenemos el beneficio bruto. El beneficio bruto es el primer indicador de un negocio próspero y es rápido y fácil calcularlo. Si los/las propietarios/as de un negocio conocen el beneficio bruto pueden determinar si han vendido suficientes bienes para cubrir los salarios, el alquiler y los impuestos.
+Si conoces el costo directo y la facturación, puedes calcular la primera métrica comercial, beneficio bruto. 
+
+> **Beneficio bruto = facturación - costo directo.** 
+
+La empresa compró barato, pero vendió caro, y listo, tenemos el beneficio bruto. El beneficio bruto es el primer indicador de un negocio próspero y es rápido y fácil calcularlo. Si los/las propietarios/as de un negocio conocen el beneficio bruto pueden determinar si han vendido suficientes bienes para cubrir los salarios, el alquiler y los impuestos.
 
 El beneficio bruto de Basil and Sons se puede calcular de la siguiente manera:  
 
@@ -34,7 +38,7 @@ Vamos a analizar otro ejemplo. A veces, las empresas venden productos a precios 
 
 La relación entre el beneficio bruto y el ingreso se denomina margen de beneficio bruto (o margen bruto).
 
-**Margen bruto = beneficio bruto / facturación.**
+> **Margen bruto = beneficio bruto / facturación.**
 
 El margen de beneficio bruto de Basil and Sons se puede calcular de la siguiente manera: $$
 700 000 / 1 000 000 = 70%
