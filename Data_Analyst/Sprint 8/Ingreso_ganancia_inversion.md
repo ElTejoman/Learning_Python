@@ -76,3 +76,43 @@ Por lo tanto, el beneficio neto fue de $500 000 − $60 000 = $440 000.
 Desafortunadamente, el beneficio neto solo se puede calcular al final del año, cuando se han determinado todas las obligaciones fiscales y crediticias. Es por eso que el beneficio bruto y operativo se utilizan para la gestión diaria, mientras que el beneficio neto se deja para la junta anual de accionistas.
 
 Un beneficio neto negativo se denomina pérdida neta. Al igual que otros tipos de pérdidas, indica que la empresa no logró ganar dinero.
+
+### **Rentabilidad de la inversión**
+
+Hasta ahora hemos estado hablando de beneficios solo en términos de un período de tiempo determinado. Compramos un producto, lo vendimos y pagamos el alquiler, los salarios, los impuestos y los préstamos. Lo que queda en el balance es el beneficio. Pero no hemos terminado todavía.
+
+Para poner en marcha un negocio, la gente invierte dinero en él. Por ejemplo, para lanzar una tienda en línea, debes diseñarla, programarla, configurar el sistema de contabilidad del producto, alquilar un almacén y contratar empleados. Estas cosas cuestan dinero y las ventas no comenzarán inmediatamente.
+
+Entonces, en sus primeras etapas, un negocio está en números negativos, pero cuando se vuelve rentable, compensa gradualmente sus pérdidas.
+
+Los inversionistas quieren saber cuándo las inversiones darán sus frutos. Para ellos, la métrica más importante es el ROI (return on investment, o rentabilidad de la inversión).
+
+\[
+\text{ROI} = \frac{(\text{beneficio neto} - \text{inversiones})}{\text{inversiones}}
+\]
+
+Digamos que el inversionista John Smith ha invertido un millón de dólares en la construcción de una planta de patines de ruedas. La construcción duró dos años, el arranque y la puesta en marcha, un año más. Después de un año, la planta obtuvo un beneficio neto de $200 000.
+
+El ROI actual de la inversión de John Smith es 
+\[ 
+  \frac{(200,000 - 1,000,000)}{1,000,000} = -80\%
+\]
+
+
+### **Rentabilidad de la inversión en marketing**
+
+
+
+- **ROI (Return on Investment):**
+  - Calcula la rentabilidad general de una inversión.
+  - Fórmula: \[ \text{ROI} = \frac{(\text{Ingresos} - \text{Gastos})}{\text{Gastos}} \]
+  - Se utiliza para evaluar el rendimiento de una inversión en comparación con su costo.
+
+- **ROMI (Return on Marketing Investment):**
+  - Mide la rentabilidad específica de una inversión en marketing.
+  - Fórmula: \[ \text{ROMI} = \frac{\text{Beneficio Bruto de la Campaña}}{\text{Gastos de la Campaña}} \]
+  - Es clave para evaluar la efectividad de las estrategias de marketing y publicidad.
+
+**Nota Importante:**
+- ROI se aplica a inversiones generales, mientras que ROMI se enfoca en inversiones de marketing.
+- Ambas métricas son fundamentales para medir la eficacia y rentabilidad de las inversiones en diferentes áreas de un negocio.
