@@ -51,3 +51,24 @@ El embudo de conversión es una herramienta esencial para identificar áreas de 
   - El análisis continuo del embudo permite probar hipótesis y realizar cambios para aumentar la tasa de conversión en cada etapa.
 
 El análisis de embudos es fundamental para entender el comportamiento de los usuarios, identificar problemas y optimizar el proceso de ventas para mejorar la tasa de conversión.
+
+
+##  Embudo de Marketing: Impresiones, Clics, CTR y CR
+
+Los expertos en marketing te han pedido que evalúes su rendimiento laboral, especialmente en la colocación de banners publicitarios en Internet. Aquí están los conceptos clave:
+
+- **Impresiones:** Representan cuántas veces se mostró el banner publicitario a los usuarios en Internet.
+  
+- **Clics:** Indican cuántos usuarios hicieron clic en el banner y fueron redirigidos a la página de aterrizaje (landing page).
+
+- **CTR (Click-Through Rate):**
+  - Es la relación entre los clics y las impresiones.
+  - Fórmula: \[ \text{CTR} = \frac{\text{Clics}}{\text{Impresiones}} \times 100\% \]
+  - Se expresa como un porcentaje y muestra la efectividad del banner para generar interés y atraer clics.
+
+- **Tasa de Conversión (CR - Conversion Rate):**
+  - Es la relación entre registros y clics en la página de aterrizaje.
+  - Fórmula: \[ \text{CR} = \frac{\text{Registros}}{\text{Clics}} \times 100\% \]
+  - También se expresa como un porcentaje y muestra la efectividad de la página de aterrizaje para convertir clics en registros.
+
+El análisis de estos datos te permitirá entender mejor cómo los usuarios interactúan con tus anuncios y páginas de destino, y te ayudará a optimizar tus estrategias de marketing para aumentar la tasa de clics y conversión.
