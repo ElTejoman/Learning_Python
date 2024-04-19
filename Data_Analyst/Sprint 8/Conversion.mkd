@@ -1,0 +1,14 @@
+## **Conversión**
+
+El proceso de venta consiste esencialmente en convertir a visitantes en compradores.
+
+Todo empieza con la primera interacción con una empresa. Puede ser una visita al sitio web o a la tienda, una llamada telefónica o la instalación de una aplicación móvil. Lo importante es que la persona se interesó en los bienes o servicios de la empresa.
+
+Luego, el usuario agrega un producto a su carrito, completa el nivel del tutorial del juego o habla con un vendedor. Aunque estos procesos son diferentes, comparten el mismo objetivo principal: convertir a un visitante en un comprador. Cuantos más usuarios se conviertan, mejor va el negocio. Es por eso que la conversión es una de las métricas más importantes.
+
+**Tasa de Conversión:**
+- La tasa de conversión es la proporción de personas que cambian de estado.
+- Fórmula: \[ \text{Tasa de Conversión} = \frac{\text{Número de Conversiones}}{\text{Número de Visitantes}} \]
+- Por ejemplo, si 1000 personas visitaron una tienda y solo 10 de ellas compraron algo, la tasa de conversión es 10/1000 = 0.01, o 1%.
+
+Aprendiste sobre conversión cuando estudiabas Manipulación de datos. Recuerda que la tasa de conversión es una métrica clave para medir el éxito de un negocio en convertir visitantes en clientes.
