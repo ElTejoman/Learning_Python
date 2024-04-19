@@ -45,3 +45,18 @@ El margen de beneficio bruto de Basil and Sons se puede calcular de la siguiente
 $$ 
 
 Por lo tanto, sólo el 70% de los ingresos totales permanecen dentro de la empresa. El margen debe calcularse para varios productos y categorías. Esto ayuda a determinar en la venta de qué productos debe centrarse la empresa
+
+### Gastos operativos
+
+
+- **Gastos Operativos:** Son los gastos que respaldan las actividades principales de una empresa, como salarios y alquiler.
+  
+- **Beneficio Operativo (EBIT):**
+  \[ \text{EBIT} = \text{Beneficio Bruto} - \text{Gastos Operativos} \]
+  Es la cantidad de dinero que una empresa gana después de pagar sus costos operativos pero antes de impuestos.
+
+- **Margen Operativo:**
+  \[ \text{Margen Operativo} = \frac{\text{EBIT}}{\text{Ingresos Totales}} \]
+  Es el porcentaje de los ingresos que queda en la empresa después de pagar los costos operativos.
+
+Estas fórmulas son esenciales para evaluar la rentabilidad y el rendimiento financiero de un negocio.
