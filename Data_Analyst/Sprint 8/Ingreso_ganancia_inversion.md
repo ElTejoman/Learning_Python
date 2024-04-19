@@ -60,3 +60,19 @@ Por lo tanto, sólo el 70% de los ingresos totales permanecen dentro de la empre
   Es el porcentaje de los ingresos que queda en la empresa después de pagar los costos operativos.
 
 Estas fórmulas son esenciales para evaluar la rentabilidad y el rendimiento financiero de un negocio.
+
+### **Beneficio neto**
+
+Ni el ingreso ni el beneficio operativo muestran la cantidad de dinero que la empresa gana realmente. Todos los gastos de la empresa (costos primarios, gastos operativos y obligaciones con el estado y los acreedores) se describen con una métrica diferente: beneficio neto. El beneficio neto es la cantidad de dinero que los propietarios de negocios pueden tomar para sí mismos o reinvertir para desarrollar la empresa.
+
+\[
+\text{Beneficio neto} = \text{Beneficio operativo} - \text{Impuestos y préstamos}
+\]
+
+Basil and Sons no tiene préstamos. Por lo tanto, los impuestos son su única obligación. Paga el 6% de su facturación ($1 000 000) en impuestos: 1 000 000 × 0.06 = 60 000.
+
+Por lo tanto, el beneficio neto fue de $500 000 − $60 000 = $440 000.
+
+Desafortunadamente, el beneficio neto solo se puede calcular al final del año, cuando se han determinado todas las obligaciones fiscales y crediticias. Es por eso que el beneficio bruto y operativo se utilizan para la gestión diaria, mientras que el beneficio neto se deja para la junta anual de accionistas.
+
+Un beneficio neto negativo se denomina pérdida neta. Al igual que otros tipos de pérdidas, indica que la empresa no logró ganar dinero.
