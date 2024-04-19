@@ -12,3 +12,42 @@ Luego, el usuario agrega un producto a su carrito, completa el nivel del tutoria
 - Por ejemplo, si 1000 personas visitaron una tienda y solo 10 de ellas compraron algo, la tasa de conversión es 10/1000 = 0.01, o 1%.
 
 Aprendiste sobre conversión cuando estudiabas Manipulación de datos. Recuerda que la tasa de conversión es una métrica clave para medir el éxito de un negocio en convertir visitantes en clientes.
+
+## Embudos
+
+
+- **Definición:** Los embudos de conversión son herramientas utilizadas para analizar el rendimiento de una tienda en línea o cualquier proceso de ventas. Ayudan a visualizar la ruta que los usuarios siguen para realizar una compra y el porcentaje de usuarios que avanzan a cada etapa del proceso.
+
+- **Estructura del Embudo:**
+  - El embudo muestra las etapas que un usuario atraviesa desde su primera interacción hasta la compra.
+  - Cada etapa representa una acción específica, como visitar la página principal, navegar productos, agregar al carrito, llegar a la página de pago y finalizar la compra.
+  - Se calcula el número de usuarios que llegan a cada etapa para obtener una visión clara del rendimiento de cada paso del proceso de ventas.
+
+- **Ejemplo de Embudo:**
+  - 10,000 usuarios visitaron la página principal.
+  - 8,000 de ellos navegaron productos.
+  - 3,000 agregaron productos al carrito.
+  - 1,000 llegaron a la página de pago.
+  - Se realizaron 100 pedidos.
+
+El embudo de conversión es una herramienta esencial para identificar áreas de mejora en el proceso de ventas y optimizar la experiencia del usuario para aumentar las conversiones.
+
+
+
+- **Conversión Total:**
+  - Es la relación entre el número de usuarios en una etapa particular y el número de usuarios en la primera etapa del embudo.
+  - Fórmula: \[ \text{Conversión Total} = \frac{\text{Usuarios en Etapa Específica}}{\text{Usuarios en Primera Etapa}} \]
+
+- **Conversión a la Siguiente Etapa:**
+  - Es la relación entre el número de usuarios de una etapa particular y el número de usuarios en la etapa anterior del embudo.
+  - Fórmula: \[ \text{Conversión a Siguiente Etapa} = \frac{\text{Usuarios en Etapa Específica}}{\text{Usuarios en Etapa Anterior}} \]
+
+- **Análisis de Embudos:**
+  - Permite sacar conclusiones e hipótesis sobre el rendimiento de cada etapa del proceso de ventas.
+  - Ejemplo: Si solo 1 de cada 10 usuarios que inician un pedido lo completan, puede haber un problema con la página de pago.
+
+- **Estrategias de Mejora:**
+  - Identifica áreas de mejora, como enviar correos electrónicos recordatorios a usuarios con productos en sus carritos.
+  - El análisis continuo del embudo permite probar hipótesis y realizar cambios para aumentar la tasa de conversión en cada etapa.
+
+El análisis de embudos es fundamental para entender el comportamiento de los usuarios, identificar problemas y optimizar el proceso de ventas para mejorar la tasa de conversión.
