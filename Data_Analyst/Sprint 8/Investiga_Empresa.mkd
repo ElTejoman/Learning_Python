@@ -1,0 +1,40 @@
+### Lo que necesitas investigar sobre una empresa durante tu primera semana
+
+#### Importancia del contexto en análisis de datos
+
+El contexto es crucial para los analistas de datos, ya que proporciona la perspectiva necesaria para comprender los datos y tomar decisiones informadas. Entender el contexto empresarial, los objetivos y la actividad del negocio es fundamental para un analista.
+
+#### Pregunta clave en una entrevista
+
+Imagina que estás siendo entrevistado para un puesto de analista junior y te hacen la pregunta: "¿Qué métricas analizarías para evaluar el compromiso de usuarios en la aplicación?"
+
+#### Respuesta de Juan y evaluación
+
+Juan, en su respuesta inicial, menciona que la duración media de sesión es una métrica importante para evaluar el compromiso de los usuarios en una aplicación. Sin embargo, esto puede no ser suficiente sin comprender el contexto específico de la empresa y la aplicación en cuestión.
+
+#### Análisis del caso
+
+En el escenario planteado, la empresa desarrolla rastreadores de bienestar y actividad física para dispositivos móviles y relojes. La aplicación principal mide el pulso, la cantidad de pasos y está diseñada para funcionar principalmente en segundo plano, enviando notificaciones automáticas. En este contexto, la duración media de sesión puede no ser la métrica más relevante para evaluar el compromiso de los usuarios, ya que la aplicación se usa de manera intermitente durante el día para consultas rápidas de resultados.
+
+#### Importancia de la investigación de la empresa
+
+Es esencial investigar a fondo la empresa para la que estás siendo entrevistado/a. Aquí hay algunas preguntas clave que te ayudarán a recopilar información relevante:
+
+1. **Ámbito de actividad:** ¿En qué industria opera la empresa?
+2. **Principales activos:** ¿Qué productos o servicios generan la mayor parte de sus ingresos?
+3. **Clientes:** ¿Quiénes son sus clientes principales? ¿Particulares o empresas?
+4. **Cultura corporativa:** ¿Qué valores busca la empresa en su personal? ¿Cómo es la estructura del equipo y el horario de trabajo?
+
+#### Información a identificar durante las primeras semanas
+
+Durante tus primeras semanas en la empresa, es importante identificar:
+
+1. **Objetivos clave:** ¿Cuáles son los objetivos principales de la empresa y tu departamento para el año en curso?
+2. **Posición del departamento:** ¿Dónde se encuentra tu departamento en la estructura corporativa?
+3. **Indicadores clave de rendimiento (KPI):** ¿Cuáles son tus KPI y los del departamento?
+4. **Procesos comerciales:** ¿En qué procesos comerciales participará tu departamento?
+5. **Conexiones de trabajo:** ¿Qué tipo de relaciones laborales tendrás? ¿Con colegas, clientes internos o contratistas?
+
+#### Conclusión
+
+Investigar la empresa y comprender su misión te permitirá abordar tus responsabilidades de manera más efectiva y alineada con los objetivos de la empresa. Esto también contribuirá a tu desarrollo profesional a largo plazo.
