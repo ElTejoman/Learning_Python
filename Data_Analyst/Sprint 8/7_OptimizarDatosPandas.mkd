@@ -1,0 +1,131 @@
+# **Optimizar datos en pandas**
+
+Trabajarás con grandes volúmenes de datos en el proyecto final. Si no tienes cuidado, los cálculos tardarán demasiado o incluso provocarán errores en el sistema de la plataforma en línea. Esta lección te enseñará los conceptos básicos de la optimización de datos en pandas para ayudarte a evitar estos problemas.
+
+Obviamente, este conocimiento también será útil en tu futuro trabajo.
+
+![OptimizarDatos](https://i.imgur.com/889i3P2.png)
+
+
+
+```markdown
+# Descargar una pequeña porción de datos
+
+Vas a obtener un archivo .csv con registros del servidor como parte del proyecto. Pasemos el parámetro `nrow=500` al método `pd.read_csv()` y descarguemos las primeras 500 filas del archivo:
+
+```python
+import pandas as pd
+
+df = pd.read_csv('data/prkt_metrics_data_afisha/visits.csv', nrows=500)
+```
+
+Analiza los datos con el método `.info()`. Para encontrar el tamaño exacto de los datos, agrega el parámetro `memory_usage='deep'`.
+
+```python
+df.info(memory_usage='deep')
+```
+
+La salida será:
+
+```
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 500 entries, 0 to 499
+Data columns (total 5 columns):
+Device       500 non-null object
+End Ts       500 non-null object
+Source Id    500 non-null int64
+Start Ts     500 non-null object
+Uid          500 non-null uint64
+dtypes: int64(1), object(3), uint64(1)
+memory usage: 109.7 KB
+```
+
+Leamos el resultado. En primer lugar, podemos ver que los datos se dividen en cinco columnas:
+
+- Device: tipo de objeto (texto)
+- End Ts: objeto
+- Source Id: int64 (número entero)
+- Start Ts: objeto
+- Uid: uint64 (número entero sin signo)
+
+También podemos ver que el tamaño de los datos descargados es de 109.7 kb. Necesitamos esta información para compararla con el tamaño de los datos optimizados.
+
+En esta lección, el punto crucial de la optimización es deshacerte del tipo `object` cuando sea posible. Los objetos en pandas son strings (texto) y usan mucha memoria.
+
+## Categorías
+
+Analicemos las columnas una por una. Toma la columna Device. Encuentra la cantidad de valores únicos en la columna y cómo se distribuyen. Usaremos el método `value_counts()`:
+
+```python
+df['Device'].value_counts()
+```
+
+Bueno, ¡eso es interesante! Parece que esta columna tiene solo dos valores: desktop y touch. Presumiblemente, estas son categorías de dispositivos: PCs y dispositivos de pantalla táctil.
+
+Pandas tiene un tipo especial para tales datos: category. Se parece mucho a object, pero usa considerablemente menos espacio. Para convertir al tipo category, usa el método `astype('category')`:
+
+```python
+df['Device'] = df['Device'].astype('category')
+```
+
+Veamos qué cambió:
+
+```python
+df.head()
+```
+
+La salida mostrará las primeras filas del DataFrame con la columna Device convertida a category.
+
+No hay cambios evidentes en la visualización. Veamos si el tamaño cambió:
+
+```python
+df.info(memory_usage='deep')
+```
+
+La salida mostrará la información del DataFrame con el tamaño reducido después de convertir la columna Device a category.
+
+## Fechas
+
+Las columnas `Start Ts` y `End Ts` contienen la fecha y la hora. Ya sabes cómo convertir texto en fecha con el método `to_datetime()`. Vamos a por ello:
+
+```python
+df['Start Ts'] = pd.to_datetime(df['Start Ts'], format="%Y-%m-%d %H:%M:%S")
+df['End Ts'] = pd.to_datetime(df['End Ts'], format="%Y-%m-%d %H:%M:%S")
+```
+
+Veamos cómo cambió el tamaño:
+
+```python
+df.info(memory_usage='deep')
+```
+
+La salida mostrará el DataFrame con las columnas `Start Ts` y `End Ts` convertidas a datetime y el tamaño reducido.
+
+## Descargar datos con los tipos de datos correctos
+
+El método `pd.read_csv()` te permite descargar datos en los formatos necesarios desde el principio. Utiliza los parámetros `dtype` y `parse_dates`.
+
+En `dtype` tendrás que indicar un diccionario cuyas claves contengan encabezados de columna y cuyos valores contengan los tipos de datos a los que se convertirán estas columnas. Por ejemplo, para convertir los datos en la columna de dispositivos al tipo categórico, necesitaremos escribir `dtype={'Device': 'category'}`.
+
+En `parse_dates` tendrás que pasar una lista de encabezados de las columnas con fechas. Por ejemplo: `parse_dates=['Start Ts', 'End Ts']`.
+
+Ahora vamos a ponerlo todo junto:
+
+```python
+dd = pd.read_csv(
+    'data/prkt_metrics_data_afisha/visits.csv',
+    nrows=500,
+    dtype={'Device': 'category'},
+    parse_dates=['Start Ts', 'End Ts'],
+)
+```
+
+Veamos cuál será el tamaño de nuestro nuevo DataFrame:
+
+```python
+dd.info()
+```
+
+La salida mostrará el DataFrame con los tipos de datos adecuados y el tamaño reducido.
+
+¡Vaya sorpresa! La diferencia en tamaño es significativa cuando descargamos datos con los tipos de
